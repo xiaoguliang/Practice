@@ -1,3 +1,0 @@
-div{color: #fff;font-size: 18px;font-weight: bold;font-family: "微软雅黑";}
-	#bigBox{width: 200px;height:200px;display:inline-block;background: lightblue;position: relative;margin: 100px 0 0 100px;}
-	#smallBox{width: 180px;height: 150px;display:inline-block;background: pink;position: absolute;left: 118px;top: 148px;cursor: move;}
