@@ -1,0 +1,7 @@
+canvas{
+	display: block;
+	margin: 50px auto;
+	background:#F7F8F7;
+    /*取负的没效果，*/
+	-moz-box-shadow: 10px 10px 10px #AEAEAF,5px 5px 5px #EFEFEF;
+}
