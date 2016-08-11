@@ -1,0 +1,272 @@
+	body ,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h5,h4,h6,form,input,textarea,p{
+		margin :0px;
+		padding :0px;
+		font-size :13px;
+	}
+	ul{
+		list-style :none;
+	}
+	a{
+		text-decoration:none;
+	}
+	a:hover {
+		text-decoration:underline;
+	}
+	#header {
+	    
+		height:452px;
+		background:url(top_bg.jpg) repeat-x;
+		margin:0px auto;
+		color:#ffffff;
+	}
+	#top {
+	height:100px;
+	}
+	#top .toplogo1{
+	width:291px;
+	padding:25px 0 0 25px;
+	float:left;
+	
+	}
+	#top .toplogo1 span{
+	font-size:17px;
+	color:#CCCCCC;
+	float:right;
+	}
+	#top .search{
+	width:291px;
+	padding:25px 25px 25px 25px;
+	float :right;
+	
+	}
+	#top .search .text{
+	width:160px;
+	height:20px;
+	background:black;
+	color:#BCBCBC;
+	border:1px solid #0B0E10;
+	padding:5px;
+	}
+	#top .search .submit{
+	width:80px;
+	height:28px;
+	cursor:pointer;
+	}
+	#nav {
+	height:50px;
+	
+	}
+	#nav  ul{
+	margin:0 0 0 25px;
+	}
+	#nav  ul  li {
+	float :left;
+	margin:10px 20px 0px 0px;
+	}
+	#nav ul li a {
+	color:black;
+	font-size:13px;
+	font-weight:blod;
+	display:block;
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	}
+	#nav ul li a:hover{
+	background:url(hover.png);
+	color:white;
+	text-decoration:none;
+	}
+	
+	#run {
+	height:301px;
+	background:url(runplay_bg.jpg);
+	}
+	#run .image{
+	width:300px;
+	float:left;
+	margin:70px 0px 0px 100px;
+	}
+	
+	#run .txt{
+	width:300px;
+	float:left;
+	margin:70px 60px 0px 100px;
+	}
+	#run .txt dl dt{
+	font-size:24px;
+	font-weight:blod;
+	color:white;
+	margin-bottom:20px;
+	}
+	#run .txt dl dd.txt1{
+	font-size:16px;
+	color:white;
+	margin:0 0 20px 0 ;
+	}
+	#run .txt dl dd.txt2 a{
+	
+	background:url(default.png);
+	display:block;
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	#run .txt dl dd.txt2 a:hover {
+	background:url(d_hover.png);
+    }
+	#main {	
+	  
+		background:url(main_top_bg.jpg) repeat-x;
+	}
+	#main1{
+	
+		background:url(main_top_bg.jpg)0px bottom repeat-x;
+	}
+	#main1 .wrap{
+	width:1220px;
+	height:900px;
+	margin:0px auto;
+	}
+	.wrap .leftbody{
+	width:820px;
+	height:900px;
+	
+	float:left;
+	}
+	.wrap .rightbody{
+	width:400px;
+	height:900px;
+	
+	float:right;
+	}
+	.wrap .leftbody .leftbody1 h2{
+	font-size:26px;
+	font-weight:blod;
+	color:black;
+	margin:50px 0px 0px 120px;
+	}
+	.wrap .leftbody .leftbody1 p{
+	font-size:13px;
+	font-weight:blod;
+	color:black;
+	margin:20px 0px 0px 120px;
+	}
+	.wrap .leftbody .leftbody1 p a{
+	color:blue;
+	}
+	.wrap .leftbody .leftbody2 h2{
+	font-size:29px;
+	color:black;
+	margin:30px 0px 0px 120px;
+	}
+    .wrap .leftbody .leftbody2 ul li{
+	width:270px;
+	height:170px;
+	background:#F1F2EA;
+	border:1px solid #D5D7CA;
+	padding:6px;
+	float:left;
+	margin:10px 0px 15px 120px;
+	}
+	.wrap .leftbody .leftbody2 ul li p{
+	font-size:28px;
+	font-weight:blod;
+	color:black;
+	margin-top:10px;
+	}
+	.wrap .leftbody .leftbody3{
+	clear:both;
+	}
+	.wrap .leftbody .leftbody3 a{
+	background:url(default.png);
+	display:block;
+	width:103px;
+	height:27px;
+	font-size:18px;
+	color:#fff;
+	text-align:center;
+	line-height:27px;
+	text-decoration:none;
+	margin:20px 0px 0px 120px;
+	}
+	.wrap .leftbody .leftbody3 .check a:hover{
+	background:url(d_hover.png);
+	}
+	.wrap .rightbody .rightbody1 h2{
+	font-size:24px;
+	font-weight:normal;
+	color:black;
+	margin:50px 0px 0px 30px;
+	} 
+	.wrap .rightbody .rightbody1 ul li {
+	width:160px;
+	margin:10px 0px 0px 30px;
+	font-size:14px;
+	font-weight:normal;
+	border-bottom:1px dashed #CCCCCC;
+	}
+	.wrap .rightbody .rightbody1 ul li p{
+	width:260px;
+	margin:3px 0px 15px 3px;
+	font-size:13px;
+	font-weight:blod;
+	}
+	.wrap .rightbody .rightbody1 ul li a{
+	color:#0074C5;
+	font-weight:normal;
+	text-decoration:underline;
+	}
+	.rightbody dl {
+	height:64px;
+	margin:35px 0 0 30px;
+    }
+	.rightbody dl dt {
+		padding:8px 0 3px 0;
+	}
+	.rightbody dl dt a {
+		font-size:24px;
+		color:#333333;
+		font-weight:bold;
+	}
+	.rightbody dl dd {
+		font-size:15px;
+		color:#333333;
+		font-weight:bold;
+	}
+	.rightbody dl.dl1 {
+		background:url(twitter.png) 160px center no-repeat;
+	}
+	.rightbody dl.dl2 {
+		background:url(rss.png) 160px center no-repeat;
+	}
+	#footer {
+	 
+		height:100px;
+		margin:0px auto;
+		background:url(footer_bg.jpg) repeat-x;
+	}
+	#footer p{
+	text-align:center;
+	}
+	#footer p a{
+	color:#ffffff;
+	margin:0px 20px 0px 0px;
+	text-decoration:underline;
+	}
+	#footer .p1{
+	padding-top:20px;
+	}
+	#footer p a.last{
+	margin:0px;
+	}
+	#footer .p2{
+	color:#ffffff;
+	margin-top:15px;
+	}
+	
